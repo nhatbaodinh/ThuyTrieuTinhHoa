@@ -1,0 +1,67 @@
+* {
+  color: white !important;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  border: 2px solid white;
+  width: 50px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-image: url(img/fran.jpg);
+  background-size: 100%;
+}
+
+main {
+  margin: 0 20px 0px 20px;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.col img {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  height: 500px;
+}
+
+.connection img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.footer {
+  margin-top: 40px;
+  background-color: #000;
+}
+
+.four-col {
+  padding: 20px;
+}
+
+.four-col .title {
+  font-size: 25px;
+}
+
+.four-col a {
+  font-size: 18px;
+}
+
+.social img {
+  margin-top: 10px;
+  height: 40px;
+}
