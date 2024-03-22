@@ -18,7 +18,7 @@
 }
 .logo-icon {
   height: 90px;
-  width: 90px;
+  width: 90px;  
   top: calc(50% - 45px);
   left: -14px;
   object-fit: cover;
@@ -134,7 +134,7 @@
   font-family: var(--font-baloo-2);
 }
 .welcome,
-.forum {
+.forum{
   margin: 0;
   position: relative;
   font-size: inherit;
@@ -183,7 +183,7 @@
   height: 50px;
   overflow: hidden;
   z-index: 1;
-  color: #fff;
+  color:#fff;
 }
 .scroll {
   position: absolute;
@@ -195,12 +195,6 @@
   width: 467px;
   z-index: 1;
 }
-
-.bx-chevrons-down {
-  font-size: 45px;
-  margin-bottom: 20px;
-}
-
 .chevrons-down {
   width: 467px;
   height: 98px;
@@ -287,11 +281,11 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .welcome {
+  .welcome{
     font-size: 39px;
     line-height: 30px;
   }
-  .forum {
+  .forum{
     font-size: 36px;
     line-height: 36px;
   }
@@ -300,3 +294,4 @@
     line-height: 30px;
   }
 }
+
