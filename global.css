@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+
+  --font-baloo-2: "Baloo 2";
+
+  --font-size-5xl: 24px;
+
+
+  --color-white: #fff;
+
+  --padding-xl: 20px;
+}
