@@ -19,7 +19,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./info.css" />
+    <link rel="stylesheet" href="css/info.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,12 +33,12 @@
   </head>
 
   <body>
+    <img class="bgsite" src="img/infobg.jpg" alt="" />
     <header class="header">
-      <!-- place navbar here -->
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <img src="img/logo.png" alt="" />
-          <a class="nav-link" href="#">THỦY TRIỀU TINH HOA</a>
+          <img class="logo-icon" src="img/logo.png" alt="" />
+          <a class="nav-link" href="index.html">THỦY TRIỀU TINH HOA</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -53,13 +53,25 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">Giới thiệu</a>
+                <a class="nav-link nav-link-direct" href="info.html"
+                  >Giới thiệu</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Liên hệ</a>
+                <a class="nav-link nav-link-direct" href="item.html"
+                  >Khám phá</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tài khoản</a>
+                <a class="nav-link nav-link-direct" href="signin.html"
+                  >Đăng nhập</a
+                >
+              </li>
+              <div class="vertical-line">|</div>
+              <li class="nav-item">
+                <a class="nav-link nav-link-direct" href="signup.html"
+                  >Đăng ký</a
+                >
               </li>
             </ul>
           </div>
@@ -146,22 +158,21 @@
             <a href="#">Đăng ký nhận tin tức</a><br />
             <a href="#">Tham gia cộng đồng</a>
             <div class="social">
-              <a href="link_cua_facebook">
-                <img src="img/ins.png" alt="" />
+              <a href="#">
+                <i class="bx bxl-instagram"></i>
               </a>
-              <a href="link_cua_facebook">
-                <img src="img/ins.png" alt="" />
+              <a href="#">
+                <i class="bx bxl-facebook"></i>
               </a>
-              <a href="link_cua_facebook">
-                <img src="img/ins.png" alt="" />
+              <a href="#">
+                <i class="bx bxl-twitter"></i>
               </a>
-              <a href="link_cua_facebook">
-                <img src="img/ins.png" alt="" />
+              <a href="#">
+                <i class="bx bxl-youtube"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="copyright"></div>
       </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
