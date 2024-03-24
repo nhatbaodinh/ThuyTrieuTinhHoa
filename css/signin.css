@@ -3,10 +3,7 @@
   padding: 0;
   font-family: "Baloo 2", sans-serif;
   font-size: 25px;
-}
-
-body {
-  color: #fff;
+  color: #fff !important;
 }
 
 .bgsite {
@@ -51,6 +48,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 #form-signin {
   max-width: 700px;
   max-height: 800px;
@@ -108,9 +106,7 @@ body {
 .signin-check a {
   color: #fff;
 }
-.signin-check a:hover {
-  color: rgb(36, 219, 255);
-}
+
 .signin-or {
   text-align: center;
   font-size: 20px;
@@ -142,9 +138,7 @@ body {
   font-size: 25px;
   padding: 0px 10px;
 }
-.social a:hover {
-  color: rgb(36, 219, 255);
-}
+
 
 /* main */
 
@@ -166,9 +160,7 @@ body {
   color: #fff;
   font-size: 18px;
 }
-.four-col a:hover {
-  color: rgb(36, 219, 255);
-}
+
 
 .social i {
   margin: 10px 5px 0 0;

@@ -3,10 +3,7 @@
   padding: 0;
   font-family: "Baloo 2", sans-serif;
   font-size: 25px;
-}
-
-body {
-  color: #fff;
+  color: #fff !important;
 }
 
 .bgsite {
@@ -60,9 +57,7 @@ body {
 .chev a {
   color: #fff;
 }
-.chev i:hover {
-  color: rgb(36, 219, 255);
-}
+
 #form-forgot {
   max-width: 700px;
   max-height: 800px;
