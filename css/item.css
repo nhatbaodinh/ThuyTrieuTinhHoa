@@ -1,10 +1,7 @@
 * {
+  color: #fff !important;
   font-family: "Baloo 2", sans-serif;
   font-size: 25px;
-}
-
-body {
-  color: white;
 }
 
 a {
@@ -58,6 +55,7 @@ main {
 }
 
 .footer {
+  margin-top: 60px;
   background-color: #000;
 }
 
@@ -79,20 +77,27 @@ main {
 }
 
 .choicebox {
-  height: 300px;
   text-align: center;
 }
 
+.choicedirec {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .choicebox img {
-  margin-top: 60px;
+  margin-top: 20px;
+  width: 200px;
+  height: 350px;
   object-fit: cover;
-  width: 150px;
-  height: 80%;
 }
 
 .choicename {
   text-transform: uppercase;
   margin-top: 10px;
   font-weight: 500;
-  margin-bottom: 30px;
 }

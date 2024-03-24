@@ -3,10 +3,7 @@
   padding: 0;
   font-family: "Baloo 2", sans-serif;
   font-size: 25px;
-}
-
-body {
-  color: #fff;
+  color: #fff !important;
 }
 
 .bgsite {
@@ -108,9 +105,7 @@ body {
 .signup-check a {
   color: #fff;
 }
-.signup-check a:hover {
-  color: rgb(36, 219, 255);
-}
+
 .signup-or {
   text-align: center;
   font-size: 20px;
@@ -128,9 +123,6 @@ body {
   color: #fff;
   font-size: 25px;
   padding: 0px 10px;
-}
-.social-media a:hover {
-  color: rgb(36, 219, 255);
 }
 
 /* main */
@@ -153,9 +145,7 @@ body {
   font-size: 18px;
   color: #fff;
 }
-.four-col a:hover {
-  color: rgb(36, 219, 255);
-}
+
 .social i {
   margin: 10px 5px 0 0;
   font-size: 40px;

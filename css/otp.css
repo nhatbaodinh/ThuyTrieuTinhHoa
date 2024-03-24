@@ -1,14 +1,11 @@
 * {
   font-family: "Baloo 2", sans-serif;
   font-size: 25px;
+  color: #fff !important;
 }
 
 a {
   text-decoration: none;
-}
-
-body {
-  color: #fff;
 }
 
 .bgsite {
@@ -63,9 +60,7 @@ body {
   text-decoration: none;
   color: #fff;
 }
-.chev i:hover {
-  color: rgb(36, 219, 255);
-}
+
 #form-otp {
   max-width: 700px;
   max-height: 800px;
