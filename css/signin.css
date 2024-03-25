@@ -78,7 +78,7 @@
 .form-submit {
   margin: 0 auto;
   display: block;
-  width: 20%;
+  width: 140px;
   padding: 6px 10px;
   background: linear-gradient(
     180deg,
@@ -135,10 +135,12 @@
 .social-media a {
   text-decoration: none;
   color: #fff;
-  font-size: 25px;
   padding: 0px 10px;
 }
 
+.social-media i {
+  font-size: 50px;
+}
 
 /* main */
 
@@ -160,7 +162,6 @@
   color: #fff;
   font-size: 18px;
 }
-
 
 .social i {
   margin: 10px 5px 0 0;
