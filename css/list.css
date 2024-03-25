@@ -44,17 +44,6 @@ a {
 }
 /* header */
 
-main {
-  margin: 0 20px 0px 20px;
-}
-
-.title {
-  margin-top: 20px;
-  font-size: 40px;
-  font-weight: 500;
-}
-
-
 /* footer */
 .footer {
   margin-top: 60px;
@@ -78,29 +67,3 @@ main {
   font-size: 40px;
 }
 /* footer */
-
-.choicebox {
-  text-align: center;
-}
-
-.choicedirec {
-  text-transform: uppercase;
-  font-size: 30px;
-  font-weight: 600;
-  margin-top: 40px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.choicebox img {
-  margin-top: 20px;
-  width: 200px;
-  height: 350px;
-  object-fit: cover;
-}
-
-.choicename {
-  text-transform: uppercase;
-  margin-top: 10px;
-  font-weight: 500;
-}
