@@ -42,6 +42,10 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
 /* header */
 
 main {
@@ -54,6 +58,14 @@ main {
   font-weight: 500;
 }
 
+.choice:hover {
+  transform: scale(1);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  cursor: pointer;
+}
 
 /* footer */
 .footer {
