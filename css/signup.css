@@ -39,6 +39,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
 /* header */
 
 /* main */

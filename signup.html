@@ -85,7 +85,11 @@
     </header>
     <main>
       <div class="wrapper">
-        <form action="" id="form-signup">
+        <form
+          action="home.html"
+          id="form-signin"
+          onSubmit="return navigateToSignin()"
+        >
           <h1 class="form-title">Đăng ký</h1>
           <div class="signup-text"><i class="bx bx-user"></i>Tài khoản</div>
           <div class="form-group">
@@ -198,5 +202,7 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+
+    <script src="main.js"></script>
   </body>
 </html>

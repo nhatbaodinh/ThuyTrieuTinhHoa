@@ -53,7 +53,10 @@
           >
             <i class="bx bx-menu"></i>
           </button>
-          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse text-center"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link nav-link-direct" href="info.html"
@@ -82,7 +85,11 @@
     </header>
     <main>
       <div class="wrapper">
-        <form action="" id="form-signin">
+        <form
+          action="home.html"
+          id="form-signin"
+          onSubmit="return navigateToHome()"
+        >
           <h1 class="form-title">Đăng nhập</h1>
           <div class="signin-text">
             <i class="bx bx-user"></i>Tài khoản hoặc Email
@@ -181,5 +188,7 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    
+    <script src="main.js"></script>
   </body>
 </html>

@@ -42,7 +42,34 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
 /* header */
+
+.item:hover {
+  transform: scale(1);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  cursor: pointer;
+}
+
+.loadmore_btn {
+  background-color: #fff;
+  color: #000 !important;
+}
+
+.loadmore_btn:hover {
+  transform: scale(1);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  cursor: pointer;
+}
 
 /* footer */
 .footer {
@@ -132,14 +159,14 @@ a {
 }
 
 .loadmore {
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 80px;
   display: flex;
   justify-content: center;
 }
 
 .loadmore_btn {
-  font-size: 20px;
+  font-size: 18px;
   padding: 8px;
   border: solid 2px #fff;
   width: 150px;
