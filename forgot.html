@@ -39,8 +39,10 @@
     <header class="header">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <img class="logo-icon" src="img/logo.png" alt="" />
-          <a class="nav-link" href="home.html">THỦY TRIỀU TINH HOA</a>
+          <a class="nav-link" href="home.html"
+            ><img class="logo-icon" src="img/logo.png" alt="" /> THỦY TRIỀU TINH
+            HOA</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -52,7 +54,10 @@
           >
             <i class="bx bx-menu"></i>
           </button>
-          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse text-center"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link nav-link-direct" href="info.html"
@@ -81,7 +86,7 @@
     </header>
     <main>
       <div class="wrapper">
-        <form action="" id="form-forgot">
+        <form action="otp.html" id="form-forgot">
           <div class="chev">
             <a href="signin.html"><i class="bx bx-chevron-left"></i></a>
           </div>
@@ -90,7 +95,6 @@
             <i class="bx bx-user"></i>Tài khoản hoặc Email
           </div>
           <div class="form-group">
-            <i class="bx bx-pencil"></i>
             <input type="text" class="form-input" placeholder="" />
           </div>
           <input type="submit" value="Tìm" class="form-submit" />
@@ -157,5 +161,11 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+
+    <script src="acc.js"></script>
+    <script>
+      var formForgot = document.getElementById("form-forgot");
+      formForgot.addEventListener("submit", handleForgotSubmit);
+    </script>
   </body>
 </html>

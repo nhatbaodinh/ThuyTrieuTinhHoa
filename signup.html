@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Đăng ký</title>
+    <title>Đăng nhập</title>
     <link rel="shortcut icon" href="img/favicon.ico" />
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -17,7 +17,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/signup.css" />
+    <link rel="stylesheet" href="css/signin.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap"
       rel="stylesheet"
@@ -40,8 +40,10 @@
     <header class="header">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <img class="logo-icon" src="img/logo.png" alt="" />
-          <a class="nav-link" href="home.html">THỦY TRIỀU TINH HOA</a>
+          <a class="nav-link" href="home.html"
+            ><img class="logo-icon" src="img/logo.png" alt="" /> THỦY TRIỀU TINH
+            HOA</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -85,35 +87,27 @@
     </header>
     <main>
       <div class="wrapper">
-        <form
-          action="home.html"
-          id="form-signin"
-          onSubmit="return navigateToSignin()"
-        >
+        <form id="form-signin" onSubmit="return navigateToSignin()">
           <h1 class="form-title">Đăng ký</h1>
-          <div class="signup-text"><i class="bx bx-user"></i>Tài khoản</div>
+          <div class="signin-text"><i class="bx bx-user"></i>Tài khoản</div>
           <div class="form-group">
-            <i class="bx bx-pencil"></i>
             <input type="text" class="form-input" placeholder="" />
           </div>
-          <div class="signup-text"><i class="bx bx-lock"></i>Mật khẩu</div>
+          <div class="signin-text"><i class="bx bx-lock"></i>Mật khẩu</div>
           <div class="form-group">
-            <i class="bx bx-pencil"></i>
             <input type="password" class="form-input" placeholder="" />
           </div>
-          <div class="signup-text">
+          <div class="signin-text">
             <i class="bx bx-lock"></i>Xác nhận mật khẩu
           </div>
           <div class="form-group">
-            <i class="bx bx-pencil"></i>
             <input type="password" class="form-input" placeholder="" />
           </div>
-          <div class="signup-text"><i class="bx bx-envelope"></i>Email</div>
+          <div class="signin-text"><i class="bx bx-envelope"></i>Email</div>
           <div class="form-group">
-            <i class="bx bx-pencil"></i>
             <input type="text" class="form-input" placeholder="" />
           </div>
-          <div class="signup-check">
+          <div class="sigin-check">
             <div class="rules-policies" style="display: flex">
               <input
                 style="margin-right: 10px; height: 37px"
@@ -126,7 +120,7 @@
               >
             </div>
           </div>
-          <div class="signup-or"><span>Hoặc</span></div>
+          <div class="signin-or"><span>Hoặc</span></div>
           <div class="social-media">
             <a href="link_cua_facebook">
               <i class="bx bxl-facebook"></i>
@@ -203,6 +197,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="main.js"></script>
+    <script src="acc.js"></script>
   </body>
 </html>
