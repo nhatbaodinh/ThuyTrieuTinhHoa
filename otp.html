@@ -17,7 +17,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/otp.css" />
+    <link rel="stylesheet" href="css/forgot.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap"
       rel="stylesheet"
@@ -36,12 +36,13 @@
   </head>
   <body>
     <img class="bgsite" src="img/accbg.jpg" alt="" />
-    <!-- place navbar here -->
     <header class="header">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <img class="logo-icon" src="img/logo.png" alt="" />
-          <a class="nav-link" href="home.html">THỦY TRIỀU TINH HOA</a>
+          <a class="nav-link" href="home.html"
+            ><img class="logo-icon" src="img/logo.png" alt="" /> THỦY TRIỀU TINH
+            HOA</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -53,7 +54,10 @@
           >
             <i class="bx bx-menu"></i>
           </button>
-          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse text-center"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link nav-link-direct" href="info.html"
@@ -82,14 +86,13 @@
     </header>
     <main>
       <div class="wrapper">
-        <form action="" id="form-otp">
+        <form id="form-forgot">
           <div class="chev">
             <a href="forgot.html"><i class="bx bx-chevron-left"></i></a>
           </div>
           <h1 class="form-title">Quên mật khẩu?</h1>
-          <div class="otp-text"><i class="bx bx-user"></i>Nhập mã OTP</div>
+          <div class="forgot-text"><i class="bx bx-user"></i>Mã OTP</div>
           <div class="form-group">
-            <i class="bx bx-pencil"></i>
             <input type="text" class="form-input" placeholder="" />
           </div>
           <input type="submit" value="Xác nhận" class="form-submit" />
@@ -156,5 +159,11 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+
+    <script src="acc.js"></script>
+    <script>
+      var formForgot = document.getElementById("form-forgot");
+      formForgot.addEventListener("submit", handleOTPSubmit);
+    </script>
   </body>
 </html>

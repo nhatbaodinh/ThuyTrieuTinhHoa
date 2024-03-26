@@ -27,13 +27,3 @@ function showSpinner() {
   spinnerContainer.appendChild(text);
   document.body.appendChild(spinnerContainer);
 }
-
-function navigateToHome() {
-  window.location.href = "home.html";
-  return false;
-}
-
-function navigateToSignin() {
-  window.location.href = "signin.html";
-  return false;
-}
