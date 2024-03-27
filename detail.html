@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Danh mục san hô</title>
+    <title>Chi tiết</title>
     <link rel="shortcut icon" href="img/favicon.ico" />
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -20,7 +20,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/list.css" />
+    <link rel="stylesheet" href="css/detail.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,7 +34,7 @@
   </head>
 
   <body>
-    <img class="bgsite" src="img/coralbg.jpg" alt="" />
+    <img class="bgsite" src="img/detailbg.jpg" alt="" />
     <header class="header">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -84,117 +84,40 @@
       </nav>
     </header>
     <main>
-      <div
-        style="position: relative"
-        id="carouselExampleSlidesOnly"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <video src="img/coralcarou1.mp4" autoplay muted></video>
-          </div>
-          <div class="carousel-item">
-            <video src="img/coralcarou2.mp4" autoplay muted></video>
-          </div>
-          <div class="carousel-item">
-            <video src="img/coralcarou3.mp4" autoplay muted></video>
-          </div>
-        </div>
-        <div class="carousel-caption">
-          <h5>SAN HÔ</h5>
-          <p>
-            San hô là nhóm sinh vật tồn tại theo quần thể gồm các cá thể giống
-            hệt nhau
-          </p>
-        </div>
+      <div class="chev">
+        <a href="javascript:void(0);" id="goBackButton"><i class="bx bx-chevron-left"></i>Quay lại</a>
       </div>
-      <div class="container-fluid item-container">
-        <div class="row row-item">
-          <div class="col-12 col-md-8 item">
-            <img src="img/sanhodo.jpeg" alt="" />
-            <div class="more-info">
-              <span class="item-name">San hô đỏ</span> <br />
-              <a href="detail.html"
-                ><i class="bx bx-menu"></i
-                ><span class="chitiet">chi tiết</span></a
-              >
-            </div>
+      <div class="container-fluid">
+        <div class="row infobox">
+          <div class="col-12 col-lg-6">
+            <img src="img/cakiem.jpg" alt="" width="100%" />
           </div>
-          <div class="col-12 col-md-4 item">
-            <img src="img/sanhogai.jpeg" alt="" />
-            <div class="more-info">
-              <span class="item-name">San hô gai</span> <br />
-              <a href="detail.html"
-                ><i class="bx bx-menu"></i
-                ><span class="chitiet">chi tiết</span></a
-              >
+          <div class="col-12 col-lg-6">
+            <div class="name text-black">Cá kiếm</div>
+            <div class="text-black">
+              <span class="fw-bold text-black">Tên khoa học:</span> Makaira
+              nigricans
             </div>
-          </div>
-          <div class="col-12 col-md-4 item">
-            <img src="img/sanhonam.jpeg" alt="" />
-            <div class="more-info">
-              <span class="item-name">San hô nấm trắng</span> <br />
-              <a href="detail.html"
-                ><i class="bx bx-menu"></i
-                ><span class="chitiet">chi tiết</span></a
-              >
+            <div class="text-black">
+              <span class="fw-bold text-black">Loài:</span> Cá
             </div>
-          </div>
-          <div class="col-12 col-md-4 item">
-            <img src="img/sanhonamdai.jpeg" alt="" />
-            <div class="more-info">
-              <span class="item-name">San hô Heliofungia</span> <br />
-              <a href="detail.html"
-                ><i class="bx bx-menu"></i
-                ><span class="chitiet">chi tiết</span></a
-              >
+            <div class="text-black">
+              <span class="fw-bold text-black">Tuổi thọ trung bình:</span> 27
+              năm (mái), 18 năm (trống)
             </div>
-          </div>
-          <div class="col-12 col-md-4 item">
-            <img src="img/sanhonao.jpeg" alt="" />
-            <div class="more-info">
-              <span class="item-name">San hô não</span> <br />
-              <a href="detail.html"
-                ><i class="bx bx-menu"></i
-                ><span class="chitiet">chi tiết</span></a
-              >
+            <div class="text-black">
+              <span class="fw-bold text-black">Kích thước trung bình: </span>
+              4,2m
             </div>
-          </div>
-          <div class="col-12 col-md-4 item">
-            <img src="img/sanhotim.jpeg" alt="" />
-            <div class="more-info">
-              <span class="item-name">San hô tím</span> <br />
-              <a href="detail.html"
-                ><i class="bx bx-menu"></i
-                ><span class="chitiet">chi tiết</span></a
-              >
-            </div>
-          </div>
-          <div class="col-12 col-md-4 item">
-            <img src="img/sanhotron.jpeg" alt="" />
-            <div class="more-info">
-              <span class="item-name">San hô tròn</span> <br />
-              <a href="detail.html"
-                ><i class="bx bx-menu"></i
-                ><span class="chitiet">chi tiết</span></a
-              >
-            </div>
-          </div>
-          <div class="col-12 col-md-4 item">
-            <img src="img/sanhoxanhla.jpeg" alt="" />
-            <div class="more-info">
-              <span class="item-name">San hô xanh lá</span> <br />
-              <a href="detail.html"
-                <i class="bx bx-menu"></i
-                ><span class="chitiet">chi tiết</span></a
-              >
+            <div class="text-black">
+              <span class="fw-bold text-black">Thông tin thêm: </span>
+              Cá kiếm xanh là một trong những loài cá lớn nhất, nhanh nhất và dễ
+              nhận biết nhất trên thế giới. Cơ thể màu xanh côban và trắng bạc
+              cùng hàm trên hình ngọn giáo khiến loài cá to lớn này nổi bật giữa
+              đại dương rộng lớn.
             </div>
           </div>
         </div>
-      </div>
-      <div class="text-center loadmore">
-        <a href=""><div class="loadmore_btn">Xem thêm</div></a>
       </div>
     </main>
     <footer>
@@ -257,5 +180,7 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+
+    <script src="acc.js"></script>
   </body>
 </html>

@@ -30,3 +30,20 @@ function handleOTPSubmit(event) {
     alert("Hãy nhập mã OTP.");
   }
 }
+
+
+document.getElementById("goBackButton").addEventListener("click", goBack);
+function goBack() {
+  var previousPage = document.referrer;
+  if (previousPage.includes("fish.html")) {
+    window.location.href = "fish.html";
+  } else if (previousPage.includes("coral.html")) {
+    window.location.href = "coral.html";
+  } else if (previousPage.includes("seaweed.html")) {
+    window.location.href = "seaweed.html";
+  } else if (previousPage.includes("others.html")) {
+    window.location.href = "others.html";
+  }else {
+    window.history.back();
+  }
+}
